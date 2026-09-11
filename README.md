@@ -2,7 +2,7 @@
 
 Goal: Write constructors that set up an object’s fields when you call new.
 
-Time: About 30–40 minutes
+Time: About 30-40 minutes
 
 You will learn:
 
@@ -130,7 +130,7 @@ You should not need a chain of left.side = ... lines if the constructor did its 
 3. Forgetting this. when parameters shadow field names
 
 ```java
-4. Calling new Motor() after you only wrote Motor(String, double) — no no-arg constructor exists
+4. Calling new Motor() after you only wrote Motor(String, double) - no no-arg constructor exists
 ```
 
 5. Doing heavy work in main that belongs in the constructor
@@ -139,25 +139,29 @@ You should not need a chain of left.side = ... lines if the constructor did its 
 
 `Game` is provided. Your job is to write `Arcade` and use it from `Main`.
 
-### Challenge 1 â€” Construct an Arcade
+### Challenge 1 - Construct an Arcade
 
 Class `Arcade` with private `String name`, `String type`, `int year`.
 
 - Constructor `Arcade(String name, String type, int year)` that stores the values
 - Method `describe()` that prints the name, type, and year
 
-### Challenge 2 â€” this + setters/getters
+### Challenge 2 - this + setters/getters
 
 Name constructor parameters the same as the fields and use `this.field = field`.  
 Add getters and setters for all three fields.
 
-### Challenge 3 â€” Wire it up in main
+### Challenge 3 - Wire it up in main
 
 In `Main`:
 
 1. `new Arcade("Arcade of Legions", "Variety", 1982)` and call `describe()`
 2. Create `Game("Pokemon", 1996, "RPG")` and `Game("Spaceball", 1986, "Pinball")`
 3. Print both games (for example with `toString()`)
+
+### Bonus - ConstructorExamples demo
+
+Also in this repo: ConstructorExamples.java shows overloaded constructors (no-arg, one-arg, multi-arg). Study it and run ConstructorExamplesTest - it checks that multiple constructors exist and a no-arg constructor creates an instance. Your graded challenges above are the Arcade work.
 
 ### Check your understanding
 
@@ -181,10 +185,10 @@ Answers
 
 3. The speed field on this object.
 
-4. No — Java will not invent the empty constructor once you wrote another one.
+4. No - Java will not invent the empty constructor once you wrote another one.
 
 ### Looking ahead
 
-In Lesson 9, you will use inheritance so one class can reuse and extend another — the same idea behind WPILib types like Command and Subsystem.
+In Lesson 9, you will use inheritance so one class can reuse and extend another - the same idea behind WPILib types like Command and Subsystem.
 
 Lesson complete. When you can write a constructor with parameters and this, you are ready for Lesson 9.
