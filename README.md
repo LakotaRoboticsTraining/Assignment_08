@@ -163,31 +163,26 @@ In `Main`:
 
 Also in this repo: ConstructorExamples.java shows overloaded constructors (no-arg, one-arg, multi-arg). Study it and run ConstructorExamplesTest - it checks that multiple constructors exist and a no-arg constructor creates an instance. Your graded challenges above are the Arcade work.
 
-### Check your understanding
+## Check your understanding
 
-1. When does a constructor run?
+1. <details>
+     <summary>When does a constructor run?</summary>
+     When you use `new` to create that object.
+   </details>
+2. <details>
+     <summary>Does a constructor have a return type?</summary>
+     No, a constructor does not have a return type.
+   </details>
+3. <details>
+     <summary>What does `this.speed` mean?</summary>
+     The `speed` field on this object.
+   </details>
+4. <details>
+     <summary>If you write only `Motor(String, double)`, can you still call `new Motor()`?</summary>
+     No - Java will not invent the empty constructor once you wrote another one.
+   </details>
 
-2. Does a constructor have a return type?
-
-3. What does this.speed mean?
-
-```java
-4. If you write only Motor(String, double), can you still call new Motor()?
-```
-
-Answers
-
-```java
-1. When you use new to create that object.
-```
-
-2. No, a constructor does not have a return type.
-
-3. The speed field on this object.
-
-4. No - Java will not invent the empty constructor once you wrote another one.
-
-### Looking ahead
+## Looking ahead
 
 In Lesson 9, you will use inheritance so one class can reuse and extend another - the same idea behind WPILib types like Command and Subsystem.
 
