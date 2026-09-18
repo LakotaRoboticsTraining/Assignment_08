@@ -1,13 +1,13 @@
 # Lesson 8: Constructors
 
-Goal: Write constructors that set up an object’s fields when you call new.
+Goal: Write constructors that set up an object's fields when you call new.
 
 Time: About 30-40 minutes
 
 You will learn:
 
 - What a constructor is
-- How a constructor’s name and job differ from a normal method
+- How a constructor's name and job differ from a normal method
 - Default constructor vs a constructor you write
 - Constructor parameters
 - Using this to tell field names from parameter names
@@ -137,7 +137,11 @@ You should not need a chain of left.side = ... lines if the constructor did its 
 
 ## Try it yourself
 
-`Game` is provided. Your job is to write `Arcade` and use it from `Main`.
+`Game` is provided. For the graded challenges, edit `Arcade.java` and `Main.java`.
+
+Do **not** edit `ArcadeTest.java` or `ConstructorExamplesTest.java` - those files check your work automatically when you open a pull request.
+
+`ConstructorExamples.java` is an optional demo you can study; your graded work is the Arcade challenges.
 
 ### Challenge 1 - Construct an Arcade
 
