@@ -137,9 +137,9 @@ You should not need a chain of left.side = ... lines if the constructor did its 
 
 ## Try it yourself
 
-`Game` is provided. For the graded challenges, edit `Arcade.java` and `Main.java`.
+`Game` is provided. For the graded challenges, edit `src/main/java/Arcade.java` and `src/main/java/Main.java`.
 
-Do **not** edit `ArcadeTest.java` or `ConstructorExamplesTest.java` - those files check your work automatically when you open a pull request.
+Do **not** edit `src/test/java/ArcadeTest.java` or `ConstructorExamplesTest.java` - those files check your work automatically when you open a pull request.
 
 `ConstructorExamples.java` is an optional demo you can study; your graded work is the Arcade challenges.
 
