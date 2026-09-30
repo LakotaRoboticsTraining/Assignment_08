@@ -137,7 +137,7 @@ You should not need a chain of left.side = ... lines if the constructor did its 
 
 ## Try it yourself
 
-> **Find your starter files:** In the file explorer, open `src` â†’ `main` â†’ `java`. `Game.java` is provided; edit `Arcade.java` and `Main.java` there.
+> **Find your starter files:** In the file explorer, open the `src` folder, then `main`, then `java`. `Game.java` is provided; edit `Arcade.java` and `Main.java` there.
 > Do **not** create new Java files at the top of the repo.
 
 For the graded challenges, edit `src/main/java/Arcade.java` and `src/main/java/Main.java`.
